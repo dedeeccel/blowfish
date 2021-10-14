@@ -8,7 +8,8 @@ export const PADDING = {
     ONE_AND_ZEROS: 1,
     LAST_BYTE: 2,
     NULL: 3,
-    SPACES: 4
+    SPACES: 4,
+    NO_PADDING: 5
 };
 
 export const TYPE = {

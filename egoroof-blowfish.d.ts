@@ -9,6 +9,7 @@ export enum PADDING {
   LAST_BYTE = 2,
   NULL = 3,
   SPACES = 4,
+  NO_PADDING = 5,
 }
 
 export enum TYPE {

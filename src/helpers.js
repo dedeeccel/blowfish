@@ -150,6 +150,8 @@ export function unpad(bytes, padding) {
             }
             break;
         }
+        case PADDING.NO_PADDING:
+            return bytes
     }
     return bytes.subarray(0, bytes.length - cutLength);
 }
