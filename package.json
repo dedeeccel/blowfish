@@ -15,8 +15,7 @@
     "mocha": "mocha",
     "preversion": "npm test",
     "version": "git add package.json package-lock.json",
-    "postversion": "git push && git push --tags && npm publish",
-    "postinstall": "npm run build"
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
